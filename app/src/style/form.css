@@ -1,0 +1,41 @@
+.form-container {
+  width: 80vw;
+  height: 100vh;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto auto;
+}
+
+.form {
+  margin-top: 80px;
+  width: 100%;
+  border-radius: 30px;
+  border: 5px;
+  margin: auto auto;
+}
+
+.form .title {
+  margin-bottom: 50px;
+}
+
+.form-unit {
+  text-align: center;
+  margin-bottom: 30px;
+  width: 100%;
+}
+
+.form-unit div input,
+.form-unit .form-label {
+  width: 100%;
+}
+@media only screen and (min-width: 600px) {
+  .form-container {
+    width: 60vw;
+    height: 85vh;
+    border: 0.5px solid #696969a2;
+    border-radius: 30px;
+    margin-top: 50px;
+  }
+}
